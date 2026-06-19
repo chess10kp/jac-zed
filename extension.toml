@@ -1,0 +1,15 @@
+id = "jac"
+name = "Jac"
+description = "Jac language support."
+version = "0.1.0"
+schema_version = 1
+authors = ["Jaseci Labs"]
+repository = "https://github.com/jaseci-labs/jac-zed"
+
+[language_servers.jac-lsp]
+name = "Jac Language Server"
+language = "Jac"
+
+[grammars.jac]
+repository = "https://github.com/jaseci-labs/tree-sitter-jac"
+commit = "062e0e19d680b73b4ae812df86a2c23205db58bb"
