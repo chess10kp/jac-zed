@@ -4,7 +4,7 @@ description = "Jac language support."
 version = "0.1.0"
 schema_version = 1
 authors = ["Jaseci Labs"]
-repository = "https://github.com/jaseci-labs/jac-zed"
+repository = "https://github.com/chess10kp/jac-zed"
 
 [language_servers.jac-lsp]
 name = "Jac Language Server"
